@@ -1,0 +1,17 @@
+{
+  "name": "form5-tabs",
+  "version": "1.0.0",
+  "homepage": "http://form5.github.io/form5-tabs/",
+  "authors": [
+    "Benedikt D Valdez <benedikt@form5.is>"
+  ],
+  "description": "jQuery tabs plugin",
+  "keywords": [
+    "jquery",
+    "tabs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "node_modules"
+  ]
+}
