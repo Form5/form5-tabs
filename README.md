@@ -82,9 +82,9 @@ All responsive awesomeness should be handled by your css, but to help you along 
 
 Which tab should be visible on load, 0 meaning the first tab, 1 the second etc.
 
-`toggle: function` **Default: function() {}**
+`toggle: function (tab)` **Default: function() {}**
 
-Optional function to be ran at each tab toggle. Each time a new tab is displayed, this baby will run like Forrest!
+Optional function to be ran at each tab toggle. Each time a new tab is displayed, this baby will run like Forrest! Will return the newly active tab.
 
 `init: function` **Default: function() {}**
 

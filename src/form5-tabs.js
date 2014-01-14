@@ -110,7 +110,7 @@
       });
 
       if (typeof this.options.toggle === 'function') {
-        this.options.toggle(tab.el);
+        this.options.toggle(this.$tabs[tab]);
       }
     },
 
