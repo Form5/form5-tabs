@@ -1,7 +1,7 @@
 
 (function () {
   'use strict';
-  var pluginName = 'form5Tabs',
+  var pluginName = 'tabs',
     defaults = {
       heading: '>.heading',
       responsive: true,
@@ -135,11 +135,11 @@
 
   $.fn[pluginName] = function (options) {
     return this.each(function () {
-      if (!$(this).data(pluginName)) {
+      if (!$(this).data('form5-'+pluginName)) {
         if (options === 'destroy') return;
-        $(this).data(pluginName, new $[pluginName](this, options));
+        $(this).data('form5-'+pluginName, new $[pluginName](this, options));
       } else {
-        var $form5Tabs = $(this).data(pluginName);
+        var $form5Tabs = $(this).data('form5-'+pluginName);
         switch (options) {
           case 'destroy':
             $form5Tabs.destroy();

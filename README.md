@@ -2,7 +2,7 @@ form5-tabs
 ==========
 
 form5-tabs is a simple but powerful jQuery plugin to render tabs from custom
-html elements. Only <strong>3KB</strong> of minified Javascript, along with
+html elements. Only **3KB** of minified Javascript, along with
 your own styles (very basic demo styles are provided).
 
 [Demo](http://form5.github.io/form5-tabs/)
@@ -30,7 +30,7 @@ loaded before this script. We recommend using the latest stable release.
 <script src="path/to/form5-tabs.min.js"></script>
 <script>
   $(function(){
-    $('tabs').form5Tabs();
+    $('tabs').tabs();
   });
 </script>
 ```
@@ -60,7 +60,7 @@ all the options with their default values, and below you can find more
 detailed description for each option.
 
 ```javascript
-$('tabs').form5Tabs({
+$('tabs').tabs({
   heading: '>.heading',
   responsive: true,
   start: 0,
@@ -101,13 +101,13 @@ For js vs no-js styling, an `[alive='true']` attribute is included after initial
 To navigate between tabs outside of the default navigation, you can simply call the function again with an integer instead of options, as demonstrated below.
 
 ```javascript
-$('tabs').form5Tabs(1);
+$('tabs').tabs(1);
 ```
 
 Sometimes we do things we wish we hadn't, and just wanna take a step back and rethink the situation. For those instances, we included a helper string that enables you to simply reverse all changes made by this script.
 
 ```javascript
-$('tabs').form5Tabs('destroy');
+$('tabs').tabs('destroy');
 ```
 
 After running this, you can initialize some fresh tabs with new options or whatever your mind can imagine.
