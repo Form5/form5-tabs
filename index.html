@@ -13,7 +13,7 @@
   <body>
 
     <div class="container">
-      <h1>form5-tabs</h1>
+      <h1>form5-tabs <small>v2.0.0</small></h1>
 
       <p>
         form5-tabs is a simple but powerful jQuery plugin to render tabs from custom html elements. Only <strong>3KB</strong> of minified Javascript, along with your own styles (very basic demo styles are provided).
@@ -138,18 +138,18 @@
     <script src="form5-tabs.min.js"></script>
     <script>
       $(function(){
-        $('tabs').form5Tabs();
+        $('tabs').tabs();
         $('.destroy-tabs').on('click',function(evt){
           evt.preventDefault();
-          $('tabs').form5Tabs('destroy');
+          $('tabs').tabs('destroy');
         });
         $('.do-tabs').on('click',function(evt){
           evt.preventDefault();
-          $('tabs').form5Tabs();
+          $('tabs').tabs();
         });
         $('.tab-usage').on('click',function(evt){
           evt.preventDefault();
-          $('tabs').form5Tabs(1);
+          $('tabs').tabs(1);
         });
       });
     </script>
