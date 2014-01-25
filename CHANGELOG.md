@@ -1,5 +1,8 @@
 # Changelog
 
+## v2.0.1 - 2014-01-25
+- Patch: Implement banner in minified css and uglified javascript
+
 ## v2.0.0 - 2014-01-21
 - Breaking change: rename actual plugin to .tabs() instead of .form5Tabs() because it makes a lot more sense.
 

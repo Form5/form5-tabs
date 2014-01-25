@@ -7,19 +7,19 @@ tabs {
     -moz-user-select: none;
     user-select: none;
     font-size: 0;
-    border-bottom: 2px solid #dc554e; }
+    border-bottom: 2px solid #DC554E; }
     tabs > nav > tab {
       cursor: pointer;
       display: inline-block;
       padding: 0 20px;
       line-height: 2em;
       font-size: 16px;
-      color: #e4e7e9;
-      background: #36454f; }
+      color: #E4E7E9;
+      background: #36454F; }
       tabs > nav > tab:hover {
-        background-color: #2d3a42; }
+        background-color: #2D3A42; }
       tabs > nav > tab.active, tabs > nav > tab[active='true'] {
-        background: #dc554e; }
+        background: #DC554E; }
       tabs > nav > tab > span {
         display: block;
         pointer-events: none; }
